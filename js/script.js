@@ -19,6 +19,7 @@ class HelloWorld extends React.Component {constructor(...args) {super(...args);_
       userBalancePlay: '',
       playOwed: '' });_defineProperty(this, "handleChange",
 
+
     e => {
       this.setState({
         [e.target.name]: e.target.value });
@@ -182,6 +183,7 @@ class HelloWorld extends React.Component {constructor(...args) {super(...args);_
     const { txHash, result, isLoading, account, balancePlay, balanceIost, userBalance, userBalancePlay, someone } = this.state;
     return (
       React.createElement("div", { className: "HelloWorld" },
+      React.createElement("div", { className: "content" },
       React.createElement("header", { className: "HelloWorld__title" }, "Trade iPLAY"),
       React.createElement("div", { className: "spacing" },
       React.createElement("h1", { className: "contractInfoTitle" }, "Contract Balance  "),
@@ -217,13 +219,6 @@ class HelloWorld extends React.Component {constructor(...args) {super(...args);_
 
 
 
-
-
-      React.createElement("div", { className: "col-12 text-center mt-4" },
-
-      React.createElement("a", { href: "https://t.me/Trade_iPLAY" }, React.createElement("img", { className: "tellogo", src: "http://assets.stickpng.com/thumbs/5842a8fba6515b1e0ad75b03.png" }))),
-
-
       isLoading &&
 
       React.createElement("div", { className: "HelloWorld__tx" },
@@ -233,7 +228,9 @@ class HelloWorld extends React.Component {constructor(...args) {super(...args);_
 
 
       result &&
-      React.createElement("p", { className: "HelloWorld__tx" }, React.createElement("img", { className: "gif", src: "https://icon2.kisspng.com/20180320/tuw/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1bfebf0f5.0376901715216030079664.jpg" }), " ", result),
+      React.createElement("p", { className: "HelloWorld__tx" }, React.createElement("img", { className: "gif", src: "https://icon2.kisspng.com/20180320/tuw/kisspng-check-mark-computer-icons-clip-art-green-check-mark-2-icon-5ab1d1bfebf0f5.0376901715216030079664.jpg" }), " ", result)),
+
+
 
 
       React.createElement("div", { className: "footertext" },
