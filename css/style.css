@@ -1,0 +1,143 @@
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	opacity: 0.7;
+}
+body {
+	background-image: url('https://i.imgur.com/Nadkul3.jpg');
+	color:white;
+	background-size: 1200px 1600px;
+}
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align:center;
+}
+.title {
+	font-size: 75px;
+	font-weight: bold;
+	line-height: 90%;
+	margin-bottom: 20px;
+	margin-top: -20px;
+	white-space: nowrap;
+	display: inline-block;
+}
+.contractInfoText{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-size: 24px;
+	line-height: 90%;
+}
+.contractInfoTitle {
+	font-size: 36px;
+	margin-bottom: 0px;
+}
+.inputbox {
+	background-color: transparent;
+	border: 0;
+	border-bottom: solid 1px #f16051;
+	width: 400px;
+	padding-bottom: 4px;
+	color: #fff !important;
+	font-weight: lighter;
+	letter-contractInfo: 2px;
+	margin: 40px;
+	font-size: 20px;
+	text-align:center;
+}
+button {
+	border-radius: 20px;
+	background-color: #FF9477;
+	border: none;
+	color: white;
+	padding: 10px;
+}
+.tradebutton{
+	margin-top:40px;
+	font-size: 20px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.txtext {
+	margin-top: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 22px;
+}
+.footertext {
+	text-align:center;
+	margin-top: 45px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #fff !important;
+	font-size: 14px;
+	background-color: transparent;
+}
+.pics {
+	position:relative;
+	top: 3px;
+	height:20px;
+	width: 20px;
+}
+@media (max-width:600px) {
+	::placeholder {
+		/* Chrome, Firefox, Opera, Safari 10.1+ */
+		font-weight: 310;
+		opacity: 1;
+		font-size: 14px;
+	}
+	.title {
+		font-size: 45px;
+		font-weight: bold;
+		margin-bottom:5px;
+		margin-top: 10px;
+	}
+	.inputbox {
+		width: 80%;
+		margin: auto;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.contractInfo {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.contractInfoText{
+		margin-top: 8px;
+		margin-bottom: 8px;
+		font-size: 18px;
+		line-height: 90%;
+	}
+	.contractInfoTitle{
+		font-size: 24px;
+	}
+	.btn-group{
+		white-space: nowrap;
+		display: inline-block;
+	}
+	.tradebutton{
+		font-size: 8px;
+		margin: 2px;
+		padding: 8px;
+	}
+	.footertext {
+		margin-top: 45px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		color: #fff !important;
+	}
+	.text-center {
+		text-align: center!important;
+	}
+	.pics {
+		width: 12px;
+		height: 12px;
+		position: relative;
+		top: 1px;
+	}
+}
